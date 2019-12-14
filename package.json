@@ -1,6 +1,6 @@
 {
   "name": "@ahkohd/get-win-apps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get all installed apps on a windows machine",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,16 @@
     "start": "node index.js",
     "dry-run": "get-apps"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
-  "keywords": ["node", "apps", "window", "registry", "list"],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "node",
+    "apps",
+    "window",
+    "registry",
+    "list"
+  ],
   "author": "Victor Aremu",
   "repository": {
     "type": "git",
