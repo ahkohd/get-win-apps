@@ -3,7 +3,7 @@ A Node.Js package that gets all apps installed in a Windows machine.
 
 ## Install
 ```bash
-$npm install get-win-apps --save
+$npm install @ahkohd/get-win-apps
 ```
 ## Usage
 ```js

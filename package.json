@@ -1,5 +1,5 @@
 {
-  "name": "get-win-apps",
+  "name": "@ahkohd/get-win-apps",
   "version": "1.0.0",
   "description": "Get all installed apps on a windows machine",
   "main": "index.js",
