@@ -1,7 +1,7 @@
 {
   "name": "get-win-apps",
   "version": "1.0.0",
-  "description": "get all installed apps on a windows machine",
+  "description": "Get all installed apps on a windows machine",
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
