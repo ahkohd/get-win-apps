@@ -1,6 +1,6 @@
 {
   "name": "@ahkohd/get-win-apps",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get all installed apps on a windows machine",
   "main": "index.js",
   "scripts": {
