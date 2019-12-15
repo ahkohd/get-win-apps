@@ -1,10 +1,12 @@
 var exec = require("child_process").exec;
+var path = require("path");
 
 function execute(command, callback) {
-  exec(command, function(error, stdout, stderr) {
+  exec(path.join(__dirname, command), [], function(error, stdout, stderr) {
     callback(error, stdout, stderr);
   });
 }
+
 
 module.exports = {
   getApps: function() {

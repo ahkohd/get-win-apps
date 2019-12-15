@@ -7,7 +7,7 @@ $npm install @ahkohd/get-win-apps
 ```
 ## Usage
 ```js
-let getWinApps = require('get-win-apps');
+let getWinApps = require('@ahkohd/get-win-apps');
 
 getWinApps
     .getApps()
