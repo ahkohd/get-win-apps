@@ -1,5 +1,5 @@
 {
-  "name": "@ahkohd/get-win-apps",
+  "name": "get-win-apps",
   "version": "1.0.2",
   "description": "Get all installed apps on a windows machine",
   "main": "index.js",
@@ -8,9 +8,6 @@
     "build-win32": "c:\\windows\\Microsoft.NET\\Framework\\v3.5\\csc.exe /t:exe /out:C:\\Users\\victor\\Documents\\dev-lab\\get-apps\\get-apps.exe C:\\Users\\victor\\Documents\\dev-lab\\get-apps\\get-apps-win.cs",
     "start": "node index.js",
     "dry-run": "get-apps"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "node",

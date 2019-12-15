@@ -3,11 +3,11 @@ A Node.Js package that gets all apps installed in a Windows machine.
 
 ## Install
 ```bash
-$npm install @ahkohd/get-win-apps
+$npm install get-win-apps
 ```
 ## Usage
 ```js
-let getWinApps = require('@ahkohd/get-win-apps');
+let getWinApps = require('get-win-apps');
 
 getWinApps
     .getApps()
